@@ -42,8 +42,8 @@ body{
         display: grid;
         grid-template-columns: auto auto auto;
         justify-content: center;
-    }
-    
+        box-shadow: $tile-font-color 10px 10px 15px;
+
     #message {
         height: 10vh;
         border: 1px solid $tile-background;
@@ -60,6 +60,10 @@ body{
             width: 20vw;
             height: 5vh;
             margin: 5px 40vw;
+            background-color: $tile-background;
+            color: $tile-font-color;
+            border: 1px solid $tile-background;
+            box-shadow: $tile-font-color 5px 5px 10px;
         }
     }
     

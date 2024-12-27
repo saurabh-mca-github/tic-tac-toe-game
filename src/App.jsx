@@ -8,7 +8,11 @@ import { useState, useEffect } from 'react';
  * check responsiveness
  * push to git repo
  * reset button - done
- * once anybody wins tiles should not be clickable
+ * once anybody wins tiles should not be clickable - half done tile is not clickable to should be disabled as well using colors
+ * 
+ * if noone wins then show message all tiles filled
+ * 
+ * 
  */
 
 function App() {
