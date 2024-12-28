@@ -37,20 +37,13 @@ body{
         font-weight: bolder;
     }
 
-    #game {
-        color: $tile-font-color;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        justify-content: center;
-        box-shadow: $tile-font-color 10px 10px 15px;
-
     #message {
         height: 10vh;
         border: 1px solid $tile-background;
         margin-bottom: 5px;
         text-align: center;
     }
-    
+
     #reset {
         margin: 0 auto;
         width: 100vw;
@@ -66,6 +59,15 @@ body{
             box-shadow: $tile-font-color 5px 5px 10px;
         }
     }
+
+    #game {
+        color: $tile-font-color;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        box-shadow: $tile-font-color 10px 10px 15px;
+        max-width: 65vw;
+        margin: 10px auto;
     
     .tiles {
         width: 200px;
@@ -76,5 +78,5 @@ body{
         line-height: 6;
         font-size: 30px;
     }
+    }
 }
-
